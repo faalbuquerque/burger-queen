@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import {Redirect, Link} from 'react-router-dom'
 
-import { auth } from './../firebaseConfig'
+import { auth } from '../firebaseConfig'
 
 
-class Login extends Component {
+class Home extends Component {
     constructor(props){
         super(props)
 
@@ -61,4 +61,4 @@ class Login extends Component {
 }
 
 
-export default Login;
+export default Home;
