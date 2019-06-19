@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Redirect, Link} from 'react-router-dom'
 
-import { auth } from './../firebaseConfig'
+import { auth } from '../firebaseConfig'
 
 
 class Home extends Component {
